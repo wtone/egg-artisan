@@ -54,12 +54,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/zzzs/egg-artisan.git"
+		"url": "https://github.com/wtone/egg-artisan"
 	},
 	"bugs": {
-		"url": "https://github.com/zzzs/egg/issues"
+		"url": "https://github.com/wtone/egg-artisan/issues"
 	},
-	"homepage": "https://github.com/zzzs/egg-artisan#readme",
-	"author": "xl",
+	"homepage": "https://github.com/wtone/egg-artisan#readme",
+	"author": "wtone",
 	"license": "MIT"
 }
