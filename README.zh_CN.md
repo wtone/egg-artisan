@@ -1,4 +1,4 @@
-# egg-artisan
+# egg-artisan-lf
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -49,7 +49,7 @@ egg-artisan 版本 | egg 1.x
 // config/plugin.js
 exports.artisan = {
   enable: true,
-  package: 'egg-artisan',
+  package: 'egg-artisan-lf',
 };
 ```
 

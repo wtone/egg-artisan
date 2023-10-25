@@ -1,65 +1,65 @@
 {
-  "name": "egg-artisan",
-  "version": "1.0.5",
-  "description": "artisan cli for egg",
-  "eggPlugin": {
-    "name": "artisan"
-  },
-  "keywords": [
-    "egg",
-    "eggPlugin",
-    "egg-plugin"
-  ],
-  "dependencies": {
-    "common-bin": "^2.8.0",
-    "is-type-of": "^1.2.1"
-  },
-  "devDependencies": {
-    "autod": "^3.0.0",
-    "autod-egg": "^1.0.0",
-    "coffee": "^5.1.0",
-    "del": "^3.0.0",
-    "egg": "^2.12.0",
-    "egg-bin": "^4.9.0",
-    "egg-ci": "^1.9.2",
-    "egg-mock": "^3.20.1",
-    "eslint": "^4.11.0",
-    "eslint-config-egg": "^5.1.0",
-    "mz": "^2.7.0",
-    "webstorm-disable-index": "^1.2.0"
-  },
-  "engines": {
-    "node": ">=8.0.0"
-  },
-  "scripts": {
-    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
-    "test-local": "egg-bin test",
-    "cov": "egg-bin cov",
-    "lint": "eslint .",
-    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
-    "pkgfiles": "egg-bin pkgfiles",
-    "autod": "autod"
-  },
-  "bin": {
-    "egg-artisan": "bin/egg-artisan.js"
-  },
-  "files": [
-    "app.js",
-    "index.js",
-    "main.js",
-    "bin"
-  ],
-  "ci": {
-    "version": "8, 9"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zzzs/egg-artisan.git"
-  },
-  "bugs": {
-    "url": "https://github.com/zzzs/egg/issues"
-  },
-  "homepage": "https://github.com/zzzs/egg-artisan#readme",
-  "author": "xl",
-  "license": "MIT"
+	"name": "egg-artisan-lf",
+	"version": "1.0.5",
+	"description": "artisan cli for egg",
+	"eggPlugin": {
+		"name": "artisan"
+	},
+	"keywords": [
+		"egg",
+		"eggPlugin",
+		"egg-plugin"
+	],
+	"dependencies": {
+		"common-bin": "^2.8.0",
+		"is-type-of": "^1.2.1"
+	},
+	"devDependencies": {
+		"autod": "^3.0.0",
+		"autod-egg": "^1.0.0",
+		"coffee": "^5.1.0",
+		"del": "^3.0.0",
+		"egg": "^2.12.0",
+		"egg-bin": "^4.9.0",
+		"egg-ci": "^1.9.2",
+		"egg-mock": "^3.20.1",
+		"eslint": "^4.11.0",
+		"eslint-config-egg": "^5.1.0",
+		"mz": "^2.7.0",
+		"webstorm-disable-index": "^1.2.0"
+	},
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"scripts": {
+		"test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+		"test-local": "egg-bin test",
+		"cov": "egg-bin cov",
+		"lint": "eslint .",
+		"ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+		"pkgfiles": "egg-bin pkgfiles",
+		"autod": "autod"
+	},
+	"bin": {
+		"egg-artisan": "bin/egg-artisan.js"
+	},
+	"files": [
+		"app.js",
+		"index.js",
+		"main.js",
+		"bin"
+	],
+	"ci": {
+		"version": "8, 9"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zzzs/egg-artisan.git"
+	},
+	"bugs": {
+		"url": "https://github.com/zzzs/egg/issues"
+	},
+	"homepage": "https://github.com/zzzs/egg-artisan#readme",
+	"author": "xl",
+	"license": "MIT"
 }

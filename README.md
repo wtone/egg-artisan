@@ -1,4 +1,4 @@
-# egg-artisan
+# egg-artisan-lf
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -25,7 +25,7 @@ A cli plugin for egg, named artisan, based on [common-bin](https://github.com/no
 ## Install
 
 ```bash
-$ npm i egg-artisan --save
+$ npm i egg-artisan-lf --save
 ```
 
 ## Mount
